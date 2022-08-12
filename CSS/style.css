@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    
+}
+body{
+    background-color: hsl(0, 0%, 98%);
+    overflow-x: hidden;
+}
+.heading{
+
+    text-align: center;
+
+    margin-top: 60px;
+    padding: 0px 80px;
+}
+.heading-top{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: .5;
+}
+.heading-bottom{
+    font-weight: bolder;
+    font-size: 21px;
+    font-weight: 600;
+    opacity: .7;
+    
+}
+.bottom-para{
+    opacity: .5;
+    padding-top: 10px;
+}
+.content-container{
+    width: 70%;
+    height: 220px;
+    box-shadow: 2px 2px 15px hsl(229, 6%, 66%);
+    margin: 40px auto 20px auto;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+}
+.content-heading{
+    padding: 20px 0px 5px 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.content-bottom-heading{
+    padding: 0px 0px 5px 20px;
+    font-size: 13px;
+    opacity: .5;
+}
+.pic{
+
+    position: absolute;
+    right: 10px;
+    top: 135px;
+
+}
+.red{
+    border-top: 5px solid  hsl(0, 78%, 62%);
+}
+.orange{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.blue{
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+@media screen and (min-width:700px) and(max-width:1000px){
+
+    .heading{
+
+        text-align: center;
+    
+        margin-top: 60px;
+        padding: 0px 80px;
+    }
+    .heading-top{
+        padding-bottom: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        opacity: .5;
+    }
+    .heading-bottom{
+        font-weight: bolder;
+        font-size: 21px;
+        font-weight: 600;
+        opacity: .7;
+        
+    }
+    .bottom-para{
+        opacity: .5;
+        padding-top: 10px;
+    }
+    .content-container{
+        width: 60%;
+        height: 220px;
+        box-shadow: 2px 2px 15px hsl(229, 6%, 66%);
+        margin: 40px auto 20px auto;
+        border-top: 5px solid hsl(180, 62%, 55%);
+        border-radius: 10px;
+        position: relative;
+        background-color: white;
+    }
+    .content-heading{
+        padding: 20px 0px 5px 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .content-bottom-heading{
+        padding: 0px 0px 5px 20px;
+        font-size: 13px;
+        opacity: .5;
+    }
+    .pic{
+    
+        position: absolute;
+        right: 10px;
+        top: 135px;
+    
+    }
+    .red{
+        border-top: 5px solid  hsl(0, 78%, 62%);
+    }
+    .orange{
+        border-top: 5px solid hsl(34, 97%, 64%);
+    }
+    .blue{
+        border-top: 5px solid hsl(212, 86%, 64%);
+    }
+}
+@media screen and (min-width:1200px) {
+    
+    .cyan{
+        position: absolute;
+        width: 25%;
+        left: 70px;
+        /* height: 20%; */
+        bottom: 250px;
+    }
+    .red{
+        position: absolute;
+        width: 25%;
+        /* height: 20%; */
+        top: 37%;
+        left: 35%;
+    }
+
+    .orange{
+        position: absolute;
+        width: 25%;
+        /* height: 20%; */
+        top: 63%;
+        left: 35%;
+    }
+    
+.blue{
+    position: absolute;
+        width: 25%;
+        right: 120px;
+        /* height: 20%; */
+        bottom: 250px;
+}
+}
+
